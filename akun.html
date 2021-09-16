@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/img/logo.png" type="image/x-icon">
+    <title>MMQ Pakijangan</title>
+    <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body class="">
+    <main>
+        <nav class="navbar bg-white shadow-sm fixed-top p-4">
+            <div class="container-fluid d-flex justify-content-between">
+                <div class="fw-bold fs-5">
+                    Ubah Profil
+                </div>
+            </div>
+        </nav>
+        <div class="flex-shrink-0 bg--mmq p-4 mt--navbar">
+            <div class="mb--footer">
+                <div class="card shadow-sm radius--8">
+                    <div class="card-body">
+                        <div class="d-flex justify-content-center mb-4">
+                            <img src="assets/img/man-2.png" class="img-fluid"
+                                style="height: 80px; width: 80px; object-fit: cover;" alt="">
+                        </div>
+                        <div>
+                            <form action="">
+                                <div class="mb-3">
+                                    <label for="name" class="form-label">Nama Lengkap</label>
+                                    <input type="text" class="form-control" id="name" name="name">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="email" class="form-label">Email</label>
+                                    <input type="email" class="form-control" id="email" name="email">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="phone" class="form-label">No. Handphone</label>
+                                    <input type="text" class="form-control" id="phone" name="phone">
+                                </div>
+                                <div class="mb-4">
+                                    <label for="gender" class="form-label">Jenis Kelamin</label>
+                                    <div class="d-flex justify-content-between">
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="gender" id="male" value="Laki-Laki">
+                                            <label class="form-check-label" for="male">Laki-Laki</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="gender" id="female" value="Perempuan">
+                                            <label class="form-check-label" for="female">Perempuan</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <button class="btn btn-success d-block w-100 p-2 rounded-pill">Simpan</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="p-2 bg-white d-flex justify-content-evenly"
+        style="position: fixed; bottom: 0; width: 100%; box-shadow: 0 -1px 5px 0 #a5a5a552; z-index: 100;">
+        <div>
+            <a href="index.html" class="text-decoration-none">
+                <div class="text-muted">
+                    <div class="d-flex justify-content-center mb-1 mt-2">
+                        <i class="fas fa-home fa-lg"></i>
+                    </div>
+                    <div class="text-center">
+                        Home
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div>
+            <a href="kegiatan.html" class="text-decoration-none">
+                <div class="text-muted">
+                    <div class="d-flex justify-content-center mb-1 mt-2">
+                        <i class="fas fa-book-reader fa-lg"></i>
+                    </div>
+                    <div class="text-center">
+                        Kegiatan
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div>
+            <a href="jadwal.html" class="text-decoration-none">
+                <div class="text-muted">
+                    <div class="d-flex justify-content-center mb-1 mt-2">
+                        <i class="fas fa-calendar-alt fa-lg"></i>
+                    </div>
+                    <div class="text-center">
+                        Jadwal
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div>
+            <a href="infaq.html" class="text-decoration-none">
+                <div class="text-muted">
+                    <div class="d-flex justify-content-center mb-1 mt-2">
+                        <i class="fas fa-hand-holding-heart fa-lg"></i>
+                    </div>
+                    <div class="text-center">
+                        Infaq
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div>
+            <a href="akun.html" class="text-decoration-none">
+                <div class="text-success">
+                    <div class="d-flex justify-content-center mb-1 mt-2">
+                        <i class="fas fa-user fa-lg"></i>
+                    </div>
+                    <div class="text-center">
+                        Akun
+                    </div>
+                </div>
+            </a>
+        </div>
+    </footer>
+    <script src="assets/bootstrap/js/bootstrap.bundle.min.js">
+    </script>
+</body>
+
+</html>
